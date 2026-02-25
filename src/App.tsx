@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <ThemeContext.Provider value={themeCtx}>
-      <BrowserRouter>
+      <BrowserRouter basename="/LavenderLi.github.io">
         <div className="flex min-h-screen flex-col">
           <Navbar />
           <SideNav />

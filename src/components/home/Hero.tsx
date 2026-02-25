@@ -117,7 +117,7 @@ export default function Hero() {
         </div>
         <div className="mt-6 flex justify-center">
           <a
-            href="/resume.pdf"
+            href={import.meta.env.BASE_URL + 'resume.pdf'}
             download="Shutong_Li_Resume.pdf"
             className="inline-flex items-center gap-2 rounded-lg bg-primary-600 px-5 py-2.5 font-medium text-white transition-colors hover:bg-primary-700 dark:bg-primary-500 dark:hover:bg-primary-400"
           >
